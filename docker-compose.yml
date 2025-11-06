@@ -14,7 +14,7 @@ services:
       - APP_DEBUG=true
       - APP_URL=https://taskly.mhg-int.com
       - DB_CONNECTION=pgsql
-      - DB_HOST=db
+      - DB_HOST=postgresql://taskly_user:supersecurepass@dockerized-laravel-db-aftdx6:5432/taskly
       - DB_PORT=5432
       - DB_DATABASE=taskly
       - DB_USERNAME=taskly_user
